@@ -1,0 +1,13 @@
+.cl-week {
+	height: 100%;
+
+	&.current-week {
+		margin: 0px 16px;
+		background: white;
+	}
+
+	&.prev-week, &.next-week {
+		background: #455A64;
+		opacity: 0.9;
+	}
+}
